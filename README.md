@@ -1,4 +1,5 @@
 # 2D Object Detection
+### Brian Huang, Loren Phillips, Tatum Maston
 
 # Summary
 ![car_image](assets/car_det.jpg)
