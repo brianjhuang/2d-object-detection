@@ -8,7 +8,7 @@ The following package utilizes the following:
 
 A ROS2 Image Subsriber that subscribes to the `/camera/color/image_raw` topic
 
-A ROS2 Image Publisher that publishes images that have a bounding box with a class label and confidence number to the topic `'yolov5_boxes`
+A ROS2 Image Publisher that publishes images that have a bounding box with a class label and confidence number to the topic `yolov5_boxes`
 
 A ROS2 Image Publisher that uses a custom message that publishes the dimensions of a bounding box, the confidence, and whether there was a detection to the topic `/bounding_images`
 
