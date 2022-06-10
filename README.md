@@ -201,7 +201,15 @@ We struggled to get multiple detections and multi-class detections. This also ca
 Given more time these can all be resolved, and we hope that people who continue to improve this code to do so!
 
 # Development Timeline
-<INSERT TIMELINE>
+Week 6: Proposed the use of the YOLOv5 model as a method to detect objects.
+    
+Week 7: Collected data for our model. Trained three iterations of our model. The final model was able to detect cars with around 80% accuracy.
+    
+Week 8: Developed the subscriber and publisher nodes neccesary to collect the images for our model to run inference on and publish the custom message containing information about the bounding box and model predictions.
+
+Week 9: Began integration of the YOLOv5 model with ROS2 subscribers and publishers. Ran into issues import dependencies and spent most of the week debugging issues with file paths and object detection. 
+    
+Week 10: Finished integration of the YOLOv5 model with ROS2 topics. Fixed scaling issues with the projected bounding box on the image. Added an image publisher to send a live stream of images to `rviz2`. Looked into possible GPU acceleration in the future and possible improvements on the model.
     
 # References
 The docker container we used and documentation are from Dominic Nightingale.
