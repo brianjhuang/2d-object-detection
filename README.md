@@ -177,7 +177,20 @@ rviz2
 
 Inside of `rviz2` add a new window and select Image from the `/bounding_images` publisher.
 
-# Challenges Faced
+# Challenges Faced and What We Hope To Add
+There were many hurdles that we faced throughout the development of this package.
+
+For all of us, this was the first time working with ROS2, meaning that there was a steep learning curve. Even now there are certain things in our code that could be written better and improved on with more experience using ROS2.
+
+Training the model and gathering data was difficult. There is not a large existing databse of F1Tenth cars, so most of the data we collected was our own. This meant we had limited variety in the types of cars the model could see. The model itself struggles with cars at certain angles and lighting, and something we can do to improve that is collect more data. Adding more variety and noise in our data could also aid the model's accuracy.
+
+Installion of certain packages and importing submodules had issues. This was solved with the EXPORT PYTHONPATH workaround, but it was something that consumed around a week worth's of time.
+
+The detections are slow, since we were only able to run the model on the Jetson's CPU. One thing we hope to add in the future is GPU acceleration. 
+
+We struggled to get multiple detections and multi-class detections. This also can be fixed with a larger more robust dataset and model tweaks.
+
+Given more time these can all be resolved, and we hope that people who continue to improve this code to do so!
 
 # Development Timeline
 
