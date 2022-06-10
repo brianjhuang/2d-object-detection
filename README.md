@@ -3,6 +3,7 @@
 
 # Summary
 ![car_image](assets/car_det.jpg)
+<INSERT SUMMARY>
 
 # Overview 
 The following package utilizes the following:
@@ -195,7 +196,7 @@ We struggled to get multiple detections and multi-class detections. This also ca
 Given more time these can all be resolved, and we hope that people who continue to improve this code to do so!
 
 # Development Timeline
-
+<INSERT TIMELINE>
 # References
 The docker container we used and documentation are from Dominic Nightingale.
 https://gitlab.com/ucsd_robocar2/ucsd_robocar_hub2
