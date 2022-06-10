@@ -3,6 +3,27 @@
 # Summary
 
 # Overview 
+The following package utilizes the following:
+
+A ROS2 Image Subsriber that subscribes to the `/camera/color/image_raw` topic
+
+A ROS2 Image Publisher that publishes images that have a bounding box with a class label and confidence number to the topic `'yolov5_boxes`
+
+A ROS2 Image Publisher that uses a custom message that publishes the dimensions of a bounding box, the confidence, and whether there was a detection to the topic `/bounding_images`
+
+The YOLOV5 model trained on F1Tenth car images collected from the internet and from the UCSD Triton AI lab.
+
+Our package publishes a custom message taht follows the following format:
+```
+bool detection
+float64 probability
+float64 x
+float64 y
+float64 width
+float64 height
+```
+
+It also publishes a live image feed viewable using `rviz2`.
 
 # Installion
 ## If you have not created a Docker container
