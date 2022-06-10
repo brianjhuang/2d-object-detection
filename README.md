@@ -1,6 +1,7 @@
 # 2D Object Detection
 
 # Summary
+![car_image](assets/car_det.jpg)
 
 # Overview 
 The following package utilizes the following:
