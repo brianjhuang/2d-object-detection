@@ -194,5 +194,7 @@ Given more time these can all be resolved, and we hope that people who continue 
 
 # Development Timeline
 
+# Acknowledgments
 
+Thank you to the Data Science Department for the unique opportunity to work on a F1Tenth car with hardware that is inaccesbile to many students! A special thanks to Professor Silberman, and our TAs Tanmay and Siddarth. Without all of your open resources and aid, this package would never come to fruition. 
 
