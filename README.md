@@ -5,21 +5,23 @@
 
 Detecting objects is a fundamental part of successful autonomous car navigation. Using ROS2 and the YOLOV5 algorithm, we designed a 2d Object Detection package. The goal of this project was to succesfully detect cars at a high frame rate and publish important information to other teams so that they can succesfully use this data to help the F1 Tenth cars navigate. Using the YOLOv5 object detection algorithm, we were able to succesfully detect other F1 Tenth cars and publish the location of those cars in the detected image.
 
+This package was developed as a part of DSC 190 (Introduction to Robot Perception and Navigation).
+
 ![car_image](assets/car_det.jpg)
 <INSERT SUMMARY>
 
 # Overview 
 The following package utilizes the following:
 
-A ROS2 Image Subsriber that subscribes to the `/camera/color/image_raw` topic
+A ROS2 Image Subsriber that subscribes to the `/camera/color/image_raw` topic. This image is published by the Intel Realsense Camera.
 
-A ROS2 Image Publisher that publishes images that have a bounding box with a class label and confidence number to the topic `yolov5_boxes`
+A ROS2 Image Publisher that publishes images that have a bounding box with a class label and confidence number to the topic `yolov5_boxes`.
 
-A ROS2 Image Publisher that uses a custom message that publishes the dimensions of a bounding box, the confidence, and whether there was a detection to the topic `/bounding_images`
+A ROS2 Image Publisher that uses a custom message that publishes the dimensions of a bounding box, the confidence, and whether there was a detection to the topic `/bounding_images`.
 
 The YOLOV5 model trained on F1Tenth car images collected from the internet and from the UCSD Triton AI lab.
 
-Our package publishes a custom message taht follows the following format:
+Our package publishes a custom message that follows the following format:
 ```
 bool detection
 float64 probability
