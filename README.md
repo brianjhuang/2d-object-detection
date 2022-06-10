@@ -197,6 +197,7 @@ Given more time these can all be resolved, and we hope that people who continue 
 
 # Development Timeline
 <INSERT TIMELINE>
+    
 # References
 The docker container we used and documentation are from Dominic Nightingale.
 https://gitlab.com/ucsd_robocar2/ucsd_robocar_hub2
