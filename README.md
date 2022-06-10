@@ -2,6 +2,9 @@
 ### Brian Huang, Loren Phillips, Tatum Maston
 
 # Summary
+
+Detecting objects is a fundamental part of successful autonomous car navigation. Using ROS2 and the YOLOV5 algorithm, we designed a 2d Object Detection package. The goal of this project was to succesfully detect cars at a high frame rate and publish important information to other teams so that they can succesfully use this data to help the F1 Tenth cars navigate. Using the YOLOv5 object detection algorithm, we were able to succesfully detect other F1 Tenth cars and publish the location of those cars in the detected image.
+
 ![car_image](assets/car_det.jpg)
 <INSERT SUMMARY>
 
