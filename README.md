@@ -195,6 +195,10 @@ Given more time these can all be resolved, and we hope that people who continue 
 
 # Development Timeline
 
+# References
+The docker container we used and documentation are from Dominic Nightingale.
+https://gitlab.com/ucsd_robocar2/ucsd_robocar_hub2
+
 # Acknowledgments
 
 Thank you to the Data Science Department for the unique opportunity to work on a F1Tenth car with hardware that is inaccesbile to many students! A special thanks to Professor Silberman, and our TAs Tanmay and Siddarth. Without all of your open resources and aid, this package would never come to fruition. 
