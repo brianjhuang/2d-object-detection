@@ -113,6 +113,13 @@ git clone https://github.com/brianjhuang/2d-object-detection.git
 ```
 
 ## Installing YOLOV5
+    
+YoloV5 is an object detection algorithm previously built using TensorFlow and currently maintained using PyTorch.
+YOLO stands for You Only Look Once, and it's an algorithm for real-time object detection and recognition in images. Uses convolutional neural networks to identify objects. 
+    
+![yolo_img](assets/yolo.png)    
+    
+    
 In your source folder clone the YOLOV5 repository.
 https://github.com/ultralytics/yolov5
 
@@ -201,6 +208,9 @@ We struggled to get multiple detections and multi-class detections. This also ca
 Given more time these can all be resolved, and we hope that people who continue to improve this code to do so!
 
 # Development Timeline
+
+![timeline](assets/timeline.png)
+    
 Week 6: Proposed the use of the YOLOv5 model as a method to detect objects.
     
 Week 7: Collected data for our model. Trained three iterations of our model. The final model was able to detect cars with around 80% accuracy.
