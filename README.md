@@ -118,6 +118,7 @@ YoloV5 is an object detection algorithm previously built using TensorFlow and cu
 YOLO stands for You Only Look Once, and it's an algorithm for real-time object detection and recognition in images. Uses convolutional neural networks to identify objects. 
     
 ![yolo_img](assets/yolo.png)    
+[image credits](https://youtu.be/69Ii3HjUiTM)
     
     
 In your source folder clone the YOLOV5 repository.
