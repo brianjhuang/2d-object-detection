@@ -1,3 +1,5 @@
+![gif](side-by-side.gif)
+
 # 2D Object Detection
 ### Brian Huang, Loren Phillips, Tatum Maston
 
