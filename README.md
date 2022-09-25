@@ -35,7 +35,7 @@ float64 height
 
 It also publishes a live image feed viewable using `rviz2`.
 
-# Installion
+# Installation
 ## If you have not created a Docker container
 
 **Start by enabling X_11 Port Forwarding**
